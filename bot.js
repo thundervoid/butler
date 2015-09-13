@@ -60,12 +60,13 @@ function processMessage(text, author, authorID) {
         createTextReq("LE MASTER ATTACKER /s*");
         return;
     }
-    
+}
     }
     // golden goblins ->  message
     if (golden goblins.test(text)) {
         createTextReq("We don't speak of them in this home, sir.");
         return;
+    }
     }
 }
 
