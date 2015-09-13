@@ -55,18 +55,10 @@ function processMessage(text, author, authorID) {
         
     }
 
-    // jav ->  message
+    // eric -> yung bitch message
     if (jav.test(text)) {
-        createTextReq("LE MASTER ATTACKER /s*");
+        createTextReq("Yung Bitch*");
         return;
-    }
-}
-    }
-    // golden goblins ->  message
-    if (golden goblins.test(text)) {
-        createTextReq("We don't speak of them in this home, sir.");
-        return;
-    }
     }
 }
 
@@ -155,8 +147,7 @@ var polite = [
  */
 var retrieve = /(FETCH|GET|FIND|RETRIEVE|GRAB|SHOW)/i;
 var please = /.*\bPLEASE\b.*/i;
-var jav = /.*\bjav\b.*/i;
-var golden goblins = /.*\bgolden goblins\b.*/i;
+var jav = /.*\jav\b.*/i;
 var steamboat = /(STEAMBOAT|WHALE|STEAMER|WILLIE)/i;
 
 /**
